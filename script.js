@@ -256,7 +256,9 @@ document.getElementById('save').addEventListener('click', function() {
         let link = document.createElement('a');
         link.href = imgData;
         link.download = 'div-image.png';
-        link.click();
+        document.body.appendChild(link);
+        link.click(); // Simulate click to download
+        document.body.removeChild(link); // Remov
     });
 });
 hideBothDivs()
