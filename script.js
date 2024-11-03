@@ -127,7 +127,7 @@ function addMoneybyuser(e){
     e.preventDefault()
     console.log(dropname.value)
     if(input_money.value.trim()===''){
-        alert('กรุณาระบุข้อมูลให้ครบ')
+        alert('กรุณาระบุข้อมูลให้ครบเเละกรอกเฉพาะตัวเลข')
         //ตัดช่องว่างข้างๆออก เผื่อมีการเว้นวรรค
         //=== เปรียบค่าพร้อมชนิดข้อมูล
     }else{
