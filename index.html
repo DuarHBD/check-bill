@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="keywords" content="หารค่าอาหาร, หารค่าทริป, หารค่าปาร์ตี้, ค่าอาหาร, ค่าทริป,ปาร์ตี้">
     <title>Check-Bill</title>
     <link rel="stylesheet" href="style.css">
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
     <h1>โปรเเกรมช่วยกันหาร</h1>
-    <div class="container">
+    <div class="container" id="container">
         <div class="option-container">
             <div>
                 <button class="option"id="option-name">เพิ่มชื่อ</button>
@@ -79,8 +78,11 @@
             <table id="display-cal">
                    
             </table>
+        
+       
             <button id="save">Save Image</button>
         </div>
+       
       
     </div>
     <script src="script.js"></script>
