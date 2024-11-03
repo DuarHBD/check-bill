@@ -20,9 +20,9 @@ const Prename=[
     {id:3,name:'ชื่อคนที่3'}
 ]
 const Prelist=[
-    {id:0,name:'ชื่อคนที่1',amount:100},
-    {id:1,name:'ชื่อคนที่2',amount:0},
-    {id:3,name:'ชื่อคนที่3',amount:20}
+    // {id:0,name:'ชื่อคนที่1',amount:100},
+    // {id:1,name:'ชื่อคนที่2',amount:0},
+    // {id:3,name:'ชื่อคนที่3',amount:20}
 ]
 let data=Prename
 let list=Prelist
