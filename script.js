@@ -248,3 +248,22 @@ btnPutmoney.addEventListener('click',addMoneybyuser)
 calbtn.addEventListener('click',calculate)
 hideBothDivs()
 init()
+input_name.addEventListener('focus', function() {
+    // เปลี่ยน viewport ชั่วคราว
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no");
+});
+
+input_name.addEventListener('blur', function() {
+    // คืนค่า viewport กลับ
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1");
+});
+input_money.addEventListener('focus', function() {
+    // เปลี่ยน viewport ชั่วคราว
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no");
+});
+
+input_money.addEventListener('blur', function() {
+    // คืนค่า viewport กลับ
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1");
+});
+
