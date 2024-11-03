@@ -184,8 +184,8 @@ td:hover .deleteList{
     margin-top: 30px;
     height: 50px;
     background-color: #F6FCDF;
-    border-top-left-radius: 10px;
-    border-top-right-radius:10px ;
+    border-radius: 10px;
+    
     display: flex;
     flex-direction: column;
 }
@@ -199,8 +199,7 @@ th{
 }
 #display-cal{
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius:10px ;
+    
 }
 #save{
     width: 110px;
