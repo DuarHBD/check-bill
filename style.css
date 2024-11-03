@@ -202,3 +202,17 @@ th{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px ;
 }
+#save{
+    width: 110px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 135px;
+    background-color: #7A1CAC;
+    box-shadow: 2px 2px 1px #533c3cb1;
+    color: white;
+    font-weight: 600;
+    
+    
+}
