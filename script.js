@@ -250,10 +250,10 @@ calbtn.addEventListener('click',calculate)
 document.getElementById('save').addEventListener('click', function() {
     html2canvas(document.getElementById('container')).then(function(canvas) {
         // Convert the canvas to a data URL
-        var imgData = canvas.toDataURL('image/png');
+        let imgData = canvas.toDataURL('image/png');
 
         // Create a link to download the image
-        var link = document.createElement('a');
+        let link = document.createElement('a');
         link.href = imgData;
         link.download = 'div-image.png';
         link.click();
