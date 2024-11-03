@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-Bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>โปรเเกรมช่วยกันหาร</h1>
+    <div class="container">
+        <div class="option-container">
+            <div>
+                <button class="option"id="option-name">เพิ่มชื่อ</button>
+                
+                <!-- <input type="text" placeholder="กรอกชื่อ"><button class="plus-name">+</button> -->
+            </div>
+            <div>
+                <button class="option" id="option-money">จำนวนเงิน</button>
+                
+                <!-- <input type="number" placeholder="จำนวนเงิน">
+                <span><select name="" id="name">
+                    <option value="">duar</option>
+                    <option value="">นน</option>
+                </select></span><span><button class="plus-money">+</button></span></p> -->
+            </div>
+        </div>
+        <div id="name-box">
+            <div class="input-name">
+                <input type="text" placeholder="กรอกชื่อ" id="input-name"><button class="plus-name" id="btnput">+</button>
+            </div>
+            <div >
+                <ul class="list-name" id="list-name">
+                <!-- <li class="name">ดุอา</li>
+                <li class="name">เบ้</li> -->
+                
+                </ul>
+               
+            </div>
+            <div class="bottom"></div>
+            
+        </div>
+       <div id="monney-box">
+            <div class="input-money">
+                <input type="number" placeholder="จำนวนเงิน" id="input-money"><select id="dropname">
+                <!-- <option value="">นน</option>
+                <option value="">f</option> -->
+                 </select><button class="plus-money" id="btnputmoney">+</button>
+            </div>
+            <div>
+                <table class="list-money" id="list-money">
+                    <!-- <tr>
+                        <th>ชื่อ</th>
+                        <th>จำนวนเงิน</th> -->
+                       
+<!--                         
+                    </tr>
+                    <tr >
+                        <td>ดุอา</td>
+                        <td>0</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>pariya</td>
+                        <td>20</td>
+                    </tr> -->
+                </table>
+            </div>
+            <div class="bottom"> <button id="calbtn">คำนวน</button></div>
+        </div>
+        <div class="cal" id="cal-box">
+            <table class="table-header" >
+                <th >ชื่อ</th>
+                        <th>โอนให้</th>
+                        <th>ผู้รับ</th>
+            </table>
+            <table id="display-cal">
+                   
+            </table>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
